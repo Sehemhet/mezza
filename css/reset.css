@@ -34,6 +34,8 @@ input {
 img {
     object-fit:contain;
     width:100%;
+    min-width:20px;
+    max-width:auto;
     height:100%;
 }
 
