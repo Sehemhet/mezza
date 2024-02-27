@@ -1,0 +1,12 @@
+@media (max-width:1024px) {
+    .N1024 {
+        display:none;
+    }
+    .language {
+        justify-content:flex-end;
+        width:100%;
+    }
+    .burger_icon {
+        display:flex;
+    }
+}

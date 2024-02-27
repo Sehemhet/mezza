@@ -1,0 +1,98 @@
+.f {display:flex;}
+.fw {flex-wrap:wrap;}
+.fwn {flex-wrap:nowrap;}
+.fnw {flex-wrap:nowrap;}
+.fr {flex-direction:row;}
+.frr {flex-direction: row-reverse;}
+.fc {flex-direction:column;}
+.fcr {flex-direction:column-reverse;}
+
+.f_ {justify-content:flex-start;}
+._f {justify-content:flex-end;}
+.f_f {justify-content:space-between;}
+._f_f_ {justify-content:space-around;}
+._f_ {justify-content:center;}
+
+.fac {align-items:center;}
+
+.gap5 {gap:5px;}
+.gap10 {gap:10px;}
+.gap20 {gap:20px;}
+.gap30 {gap:30px;}
+.gap50 {gap:50px;}
+.gap100 {gap:100px;}
+
+.f100 {flex:1 1 100%;}
+.f50 {flex:1 1 50%;}
+.f60 {flex:1 1 60%;}
+.f30 {flex:1 1 30%;}
+
+.f_a {flex:1 1 auto;}
+
+.f_400 {flex:1 1 400px;}
+.f_200 {flex:1 1 200px;}
+.f_300 {flex:1 1 300px;}
+.f_100 {flex:1 1 100px;}
+
+.w {width:100%;}
+.w_50 {width:50px;}
+.h {height:100%;}
+.ha {height:auto;}
+.w_200 {width:200px;}
+.w_150 {width:150px;}
+.h_200 {height:200px;}
+
+
+.T_t::first-letter {text-transform: uppercase;}
+.t {text-transform: lowercase;}
+.T {text-transform: uppercase;}
+._t_ {text-align:center;}
+._t {text-align:end;}
+.t_ {text-align:start;}
+.Tt {text-transform: capitalize;}
+.t_nw {white-space: nowrap;}
+.t_t {text-align: justify;}
+
+
+
+.contain {object-fit:contain;}
+.cover {object-fit:cover;}
+.fill {object-fit:fill;}
+.hide {overflow:hidden;}
+
+.fs60 {font-size:60px;}
+.fs40 {font-size:40px;}
+.fs30 {font-size:30px;}
+.fs24 {font-size:24px;}
+
+.pad20 {padding:20px;}
+.pad10 {padding:10px;}
+.pad10t {padding-top:10px;}
+.pad10b {padding-bottom:10px;}
+.pad10l {padding-left:10px;}
+.pad10r {padding-right:10px;}
+.pad30l {padding-left:30px;}
+.pad30r {padding-right:30px;}
+.pad50 {padding:50px;}
+.pad50t {padding-top:50px;}
+.pad50b {padding-bottom:50px;}
+.pad100t {padding-top:100px;}
+.pad100b {padding-bottom:100px;}
+
+.fw700 {font-weight:700;}
+.fw400 {font-weight:400;}
+
+._b_all_w {border:1px solid var(--white);}
+._b_all_r {border:1px solid var(--red);}
+._b_b_r {border-bottom:1px solid var(--red);}
+._b_b_b {border-bottom:1px solid var(--blue);}
+._b_all_b {border:1px solid var(--blue);}
+._b_b_w {border-bottom:1px solid var(--white);}
+
+.o {border-radius:50%;}
+.o10 {border-radius:10px;}
+
+.hover_scale:hover {
+    transition:.5s;
+    transform:scale(1.1);
+}

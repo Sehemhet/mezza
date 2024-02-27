@@ -1,0 +1,133 @@
+.header_in {
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+
+.logo {
+    border-right:1px solid var(--grey_light_super);
+    flex:1 1 150px;
+}
+
+.logo img {
+    width:100px;
+}
+
+.net_link {
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+    align-items:center;
+    border-right:1px solid var(--grey_light_super);
+    flex:1 1 100px;
+}
+
+.header_in__item {
+    padding:10px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:1px solid var(--grey_light_super);
+}
+.navigation_menu {
+    border-right:1px solid var(--grey_light_super);
+    flex:1 1 1000px;
+
+}
+.navigation_menu nav {
+    width:100%;
+}
+
+.navigation_menu nav ul {
+    display:flex;
+    gap:10px;
+    justify-content:space-around;
+    color:var(--blue);
+    width:100%;
+}
+
+.language {
+    flex: 1 1 50px;
+    gap:50px;
+    display:flex;
+    padding:10px;
+}
+
+.burger_menu {
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100vh;
+    width:100%;
+    position:fixed;
+    background:var(--white);
+    left:0;
+    top:0;
+    padding:50px;
+    gap:50px;
+    color:var(--blue);
+    z-index:9999;
+}
+.burger_menu__nav {
+    height:100%;
+}
+.burger_menu__nav ul {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-around;
+    height:100%;
+}
+
+.burger_menu__net_icons {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:10px;
+    gap:10px;
+}
+.burger_close {
+    height:30px;
+    width:30px;
+    position:relative;
+    margin-left:auto;
+    padding:10px;
+}
+.burger_close__line {
+    width:100%;
+    height:2px;
+    background:var(--red);
+    position:absolute;
+    z-index:1;
+    left:0;
+    top:0;
+}
+.burger_close ._1 {
+    transform:translateY(-50%) rotate(45deg);
+}
+.burger_close ._2 {
+    transform:translateY(-50%) rotate(-45deg);
+}
+
+.burger_icon {
+    height:30px;
+    width:30px;
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.burger_icon__line {
+    width:100%;
+    height:2px;
+    background:var(--blue);
+}
+.burger_icon:active>.burger_icon__line {
+    width:0px;
+    margin:0 auto;
+    transition:width 0.5s;
+}
+
+/*
+* {
+    border:1px solid green;
+}
